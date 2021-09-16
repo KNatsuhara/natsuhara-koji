@@ -634,7 +634,10 @@ int main()
         case 7: save(); break;
         case 8: reload(); break;
         case 9: menu(); break;
-        case 10: quit(); break;
+        case 10:
+          save();
+          quit(); 
+          break;
       }
       printf("cwd: %s\n", cwd->name);
   }

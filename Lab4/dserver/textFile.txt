@@ -1,0 +1,27 @@
+                     CS360 LAB4 Check List
+                        DUE: 10-21-2021
+		     
+      One demo session for each group; all team members must be present
+          You may run both server and client in the same DIRectory
+      Submit a zip file of your server.c and client.c code BEFORE demo
+		 
+=========================================================================      
+              start server; start client to connect
+
+		 Run commands from Client side
+
+1. lpwd; lls:                    : list clientDIR locally               10
+
+2. pwd; cd ../; pwd              : should be at (virtual root) /        10
+
+3. ls                            : list serverDIR lines to Client side  10
+
+4. lmkdir local; lcd local; lpwd : sholud be at clientDIR/local;        10
+   
+5. get server.c; lls          	 : show server.c SAME size as in (3)    20
+
+6. lrm server.c; lls             : show server.c removed                10
+		 
+7. lcd ../; lrmdir local; lls    : show local DIR removed               10
+         	 
+8. put server.c; ls              : show server.c SAME size as in (3).   20
